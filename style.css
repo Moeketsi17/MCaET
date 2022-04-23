@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #0B2233;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    width: 100%;
+    padding: 0 5%;
+    height: 3.5rem;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.logo {
+    z-index: 1000;
+}
+
+.burger {
+    height: 1.8rem;
+    width: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.burger span {
+    background-color: #0B2233;
+    width: 2.5rem;
+    height: 2.5px;
+}
+
+.navlinks {
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.navlinks li {
+    list-style: none;
+    line-height: 2rem;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #0B2233;
+}
+
+
+/* header */
+.home-header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/header-home.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text-container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(11, 34, 51, 0.55);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.org-name {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
