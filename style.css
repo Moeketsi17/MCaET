@@ -95,7 +95,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 0 5% 6rem;
+    padding: 0 5% 20%;
 }
 
 .org-name {
