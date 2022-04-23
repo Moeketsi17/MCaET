@@ -123,6 +123,67 @@ nav {
 
 
 
+/* home products */
+/* home products */
+/* home products */
+.home-products {
+    padding: 2rem 5%;
+}
+
+.box-container {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .box {
+
+
+} */
+
+.box img {
+    height: 20rem;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+.box p {
+    color: #fff;
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 4rem;
+}
+
+.link-container {
+    padding: 3rem 0 2rem;
+}
+
+.page-link {
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+
+
+/* home about */
+/* home about */
+/* home about */
+.home-about {
+    padding: 3rem 5%;
+}
+
+.about-text {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+
+
+
+
+
 
 
 
