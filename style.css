@@ -35,6 +35,7 @@ nav {
 
 .logo {
     z-index: 1000;
+    width: 9rem;
 }
 
 .burger {
@@ -63,7 +64,12 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: none;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+
+.navlinks.active {
+    transform: translateY(0%);
 }
 
 .navlinks li {
@@ -165,16 +171,31 @@ nav {
     text-decoration: none;
 }
 
+.page-link img {
+    width: 1.5rem;
+}
+
+
 
 
 /* home about */
 /* home about */
 /* home about */
 .home-about {
-    padding: 3rem 5%;
+    padding: 10rem 5% 3rem;
+}
+
+.about-img {
+    width: 100%;
+    height: 35rem;
+    background-image: url(/images/about-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about-text {
+    margin-top: 3rem;
     font-size: 1.6rem;
     color: #fff;
 }
@@ -186,6 +207,124 @@ nav {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet screen 768px */
+/* tablet screen 768px */
+/* tablet screen 768px */
+/* tablet screen 768px */
+/* tablet screen 768px */
+@media screen and (min-width: 768px) {
+    
+    /* header */
+    .home-header {
+        height: 100vh;
+        width: 100%;
+        background-image: url(/images/header-home.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header-text-container {
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(11, 34, 51, 0.55);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5% ;
+    }
+
+    .org-name {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    .slogan {
+        color: #fff;
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .cta-btn {
+        text-decoration: none;
+        color: #fff;
+        width: 30rem;
+        background-color: #FF7603;
+        height: 40px;
+        display: grid;
+        place-items: center;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+
+
+    /* home products */
+    /* home products */
+    /* home products */
+    .home-products {
+        padding: 2rem 5%;
+    }
+
+    .box-container {
+        gap: 3rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box img {
+        height: 30rem;
+        width: 100%;
+        background-color: darkcyan;
+    }
+
+    .box p {
+        color: #fff;
+        font-size: 1.6rem;
+        display: grid;
+        place-items: center;
+        height: 4rem;
+    }
+
+    .link-container {
+        padding: 3rem 0 2rem;
+    }
+
+    .page-link {
+        color: #fff;
+        font-size: 1.8rem;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
