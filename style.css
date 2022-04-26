@@ -53,6 +53,33 @@ nav {
     height: 2px;
 }
 
+
+/* burger animation */
+.burger.open .line1 {
+    -moz-transform: rotate(45deg) translate(8px, 7px);
+    -o-transform: rotate(45deg) translate(8px, 7px);
+    -ms-transform: rotate(45deg) translate(8px, 7px);
+    -webkit-transform: rotate(45deg) translate(8px, 7px);
+    transform: rotate(45deg) translate(8px, 5px);
+    transition: all 0.4s ease;
+    
+}
+
+.burger.open .line2 {
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.burger.open .line3 {
+    -moz-transform: rotate(-45deg) translate(7px, -6px);
+    -o-transform: rotate(-45deg) translate(7px, -6px);
+    -ms-transform: rotate(-45deg) translate(7px, -6px);
+    -webkit-transform: rotate(-45deg) translate(7px, -6px);
+    transform: rotate(-45deg) translate(8px, -5px);
+    transition: all 0.4s ease;
+}
+
+
 .navlinks {
     position: absolute;
     height: 50vh;
@@ -84,6 +111,10 @@ nav {
     color: #0B2233;
     font-weight: 500;
 }
+
+
+
+
 
 
 /* header */
@@ -1122,7 +1153,7 @@ footer {
 
 
     .pack-container img {
-        width: 33.1rem;
+        width: 28rem;
     }
 
     .pack-container p {
