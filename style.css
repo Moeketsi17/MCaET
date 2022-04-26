@@ -268,7 +268,7 @@ footer {
 /* products page */
 /* products page */
 .section-container {
-    padding: 5rem 0 0;
+    padding: 5rem 0 5rem;
 }
 
 .item-banner {
@@ -280,8 +280,14 @@ footer {
     
 }
 
+/* vehicle & base radios */
 .banner-1 {
     background-image: url(/images/products-mobile-banner-1.png);
+}
+
+/* potable radios */
+.banner-2 {
+    background-image: url(/images/products-mobile-banner-2.png);
 }
 
 .item-text-container {
@@ -304,6 +310,8 @@ footer {
     padding: 2rem 5%;
     display: flex ;
     flex-direction: column;
+    
+    align-items: center;
     gap: 4rem;
 }
 
@@ -674,6 +682,91 @@ footer {
 
 
 
+
+
+
+
+    
+
+    /* products page */
+    /* products page */
+    /* products page */
+    /* products page */
+    /* products page */
+    .section-container {
+        padding: 5rem 0 ;
+    }
+
+    .item-banner {
+        height: 60vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+
+    /* vehicle & base radios */
+    .banner-1 {
+        background-image: url(/images/products-banner-1.png);
+    }
+
+    /* potable radios */
+    .banner-2 {
+        background-image: url(/images/products-banner-2.png);
+    }
+
+    .item-text-container {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(11, 34, 51, 0.55);
+        display: grid;
+        place-items: center;
+
+    }
+
+    .item-text-container h5 {
+        color: #fff;
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .item-container {
+        padding: 2rem 5%;
+        display: flex ;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        width: 100%;
+    }
+
+
+    .pack-container img {
+        width: 21rem;
+    }
+
+    .pack-container p {
+        color: #fff;
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 0 2rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
     /* about page */
@@ -963,6 +1056,92 @@ footer {
     }
 
     
+
+
+
+
+
+
+
+
+
+    
+    /* products page */
+    /* products page */
+    /* products page */
+    /* products page */
+    /* products page */
+    .section-container {
+        padding: 5rem 0 ;
+    }
+
+    .item-banner {
+        height: 60vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+
+    /* vehicle & base radios */
+    .banner-1 {
+        background-image: url(/images/products-banner-1.png);
+    }
+
+    /* potable radios */
+    .banner-2 {
+        background-image: url(/images/products-banner-2.png);
+    }
+
+    .item-text-container {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(11, 34, 51, 0.55);
+        display: grid;
+        place-items: center;
+
+    }
+
+    .item-text-container h5 {
+        color: #fff;
+        font-size: 6rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .item-container {
+        padding: 2rem 5%;
+        display: flex ;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        width: 100%;
+    }
+
+
+    .pack-container img {
+        width: 33.1rem;
+    }
+
+    .pack-container p {
+        color: #fff;
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 0 2rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
