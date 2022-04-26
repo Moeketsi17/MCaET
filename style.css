@@ -262,6 +262,76 @@ footer {
 
 
 
+/* products page */
+/* products page */
+/* products page */
+/* products page */
+/* products page */
+.section-container {
+    padding: 5rem 0 0;
+}
+
+.item-banner {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-1 {
+    background-image: url(/images/products-mobile-banner-1.png);
+}
+
+.item-text-container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(11, 34, 51, 0.55);
+    display: grid;
+    place-items: center;
+
+}
+
+.item-text-container h5 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.item-container {
+    padding: 2rem 5%;
+    display: flex ;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+
+.pack-container p {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* about page */
 /* about page */
 /* about page */
@@ -331,13 +401,13 @@ footer {
 }
 
 .map-container {
-    background-color: aquamarine;
     overflow: hidden;
+    padding-bottom: 3rem;
 }
 
 
 .form-section {
-    padding: 5rem 0 3rem;
+    padding: 5rem 0 5rem;
 }
 
 .fields {
@@ -664,6 +734,72 @@ footer {
 
 
 
+    /* contact page */
+    /* contact page */
+    /* contact page */
+    /* contact page */
+    /* contact page */
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 5% 0;
+
+    }
+
+    .map-container {
+        overflow: hidden;
+        padding-bottom: 3rem;
+    }
+
+
+    .form-section {
+        padding: 5rem 0 5rem;
+    }
+
+    .fields {
+        width: 60%;
+        
+    }
+
+    .rect {
+        width: 100%;
+        height: 6rem;
+        border: none;
+        border-bottom: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        margin-top: 3rem;
+    }
+
+    .textarea {
+        width: 100%;
+        height: 10rem;
+        border: none;
+        border-bottom: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        font-size: 1.4rem;
+        margin-top: 4rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .button {
+        background-color: #FF7603;
+        border: none;
+        color: #fff;
+        font-size: 1.6rem;
+        width: 60%;
+        height: 4rem;
+        margin-top: 3rem;
+    }
+
+
+
+
+
+
+
+
 
 }
 
@@ -717,6 +853,20 @@ footer {
         list-style: none;
         line-height: 1.8rem;
     }
+
+    .navlinks li:nth-child(4) {
+        background-color: #FF7603;
+        height: 3rem;
+        width: 15rem;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navlinks li:nth-child(4) a {
+        color: #fff;
+    }
     
     .navlinks li a {
         text-decoration: none;
@@ -725,6 +875,7 @@ footer {
         font-weight: 500;
     }
 
+    
 
 
 
@@ -875,6 +1026,85 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+
+
+
+
+
+
+
+
+    
+    /* contact page */
+    /* contact page */
+    /* contact page */
+    /* contact page */
+    /* contact page */
+    .contact-container {
+        display: flex;
+        flex-direction: row;
+        padding: 10rem 5% 0;
+
+    }
+
+    .map-container {
+        overflow: hidden;
+        padding-bottom: 0rem;
+        padding-top: 5rem;
+        width: 50%;
+    }
+
+
+    .form-section {
+        padding: 1.5rem 0 0 5rem;
+        width: 50%;
+        
+    }
+
+    .fields {
+        width: 40rem;
+    }
+
+    .rect {
+        width: 100%;
+        height: 6rem;
+        border: none;
+        border-bottom: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        margin-top: 3rem;
+    }
+
+    .textarea {
+        width: 100%;
+        height: 10rem;
+        border: none;
+        border-bottom: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        font-size: 1.4rem;
+        margin-top: 4rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: center;
+        width: 40rem;
+    }
+
+    .button {
+        background-color: #FF7603;
+        border: none;
+        color: #fff;
+        font-size: 1.6rem;
+        width: 30rem;
+        height: 4.5rem;
+        margin-top: 3rem;
+        align-self: center;
+    }
+
 
 
 
