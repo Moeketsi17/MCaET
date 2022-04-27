@@ -335,6 +335,7 @@ footer {
     font-size: 4rem;
     font-weight: 600;
     text-align: center;
+    width: 70%;
 }
 
 .item-container {
@@ -460,7 +461,8 @@ footer {
     border-bottom: 1px solid #fff;
     background-color: transparent;
     color: #fff;
-    margin-top: 3rem;
+    margin-top: 4rem;
+    outline: none;
 }
 
 .textarea {
@@ -473,6 +475,7 @@ footer {
     font-size: 1.4rem;
     margin-top: 4rem;
     font-family: 'Open Sans', sans-serif;
+    outline: none;
 }
 
 .button {
