@@ -463,6 +463,7 @@ footer {
     color: #fff;
     margin-top: 4rem;
     outline: none;
+    resize: none;
 }
 
 .textarea {
@@ -476,6 +477,7 @@ footer {
     margin-top: 4rem;
     font-family: 'Open Sans', sans-serif;
     outline: none;
+    resize: none;
 }
 
 .button {
