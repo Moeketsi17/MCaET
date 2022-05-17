@@ -138,8 +138,7 @@ nav {
 
 .org-name {
     color: #fff;
-    font-size: 5rem;
-    width: 80rem;
+    font-size: 3rem;
     background-color: orange;
 }
 
@@ -1032,7 +1031,8 @@ footer {
 
     .org-name {
         color: #fff;
-        font-size: 5rem;
+        font-size: 6rem;
+        width: 80rem;
     }
 
     .slogan {
