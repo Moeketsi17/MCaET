@@ -994,6 +994,10 @@ footer {
         justify-content: center;
     }
 
+    .navlinks li:nth-child(4):hover {
+        background-color: #ff8a2a;
+    }
+
     .navlinks li:nth-child(4) a {
         color: #fff;
     }
@@ -1053,7 +1057,7 @@ footer {
     }
 
     .cta-btn:hover {
-        background-color: #af4f00;
+        background-color: #ff8a2a;
     }
 
 
