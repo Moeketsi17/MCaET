@@ -138,8 +138,9 @@ nav {
 
 .org-name {
     color: #fff;
-    font-size: 3rem;
-
+    font-size: 5rem;
+    width: 80rem;
+    background-color: orange;
 }
 
 .slogan {
