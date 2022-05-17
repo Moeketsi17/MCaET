@@ -139,7 +139,6 @@ nav {
 .org-name {
     color: #fff;
     font-size: 3rem;
-    background-color: orange;
 }
 
 .slogan {
@@ -1032,7 +1031,7 @@ footer {
     .org-name {
         color: #fff;
         font-size: 6rem;
-        width: 80rem;
+        width: 90rem;
     }
 
     .slogan {
@@ -1053,6 +1052,9 @@ footer {
         margin: 10px 0;
     }
 
+    .cta-btn:hover {
+        background-color: #af4f00;
+    }
 
 
 
