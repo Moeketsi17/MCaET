@@ -168,7 +168,7 @@ nav {
 /* home products */
 /* home products */
 .home-products {
-    padding: 2rem 5%;
+    padding: 10rem 5%;
 }
 
 .box-container {
@@ -178,7 +178,7 @@ nav {
 }
 
 .box img {
-    height: 30rem;
+    /* height: 30rem; */
     width: 100%;
     background-color: darkcyan;
 }
