@@ -355,7 +355,9 @@ footer {
     gap: 4rem;
 }
 
-
+.pack-container {
+    text-decoration: none;
+}
 
 .pack-container p {
     color: #fff;
@@ -1226,6 +1228,9 @@ footer {
         width: 100%;
     }
 
+    .pack-container:hover >  p {
+        color: #FF7603;
+    }
 
     .pack-container img {
         width: 28rem;
