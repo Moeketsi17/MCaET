@@ -533,6 +533,7 @@ footer {
 
 .description-img-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 2rem;
@@ -1442,6 +1443,56 @@ footer {
 
 
 
+
+
+
+
+
+    
+    /* nx5000 page */
+    /* nx5000 page */
+    /* nx5000 page */
+
+    .item-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-text-container h6 {
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .item-text-container p {
+        color: #fff;
+        font-size: 1.7rem;
+    }
+
+    .description-container {
+        display: flex;
+        flex-direction: row;
+        padding: 5rem 5% 0 ;
+    }
+
+    .description-img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    .description-text-contaner {
+        padding:  0 2rem;
+    }
+
+    .description-text-contaner p {
+        color: #fff;
+        font-size: 1.8rem;
+    }
 
 
 
