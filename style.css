@@ -1461,14 +1461,14 @@ footer {
     }
 
     .item-text-container h6 {
-        font-size: 2rem;
+        font-size: 3.5rem;
         color: #fff;
         font-weight: 500;
     }
 
     .item-text-container p {
         color: #fff;
-        font-size: 1.7rem;
+        font-size: 2.5rem;
     }
 
     .description-container {
@@ -1486,7 +1486,7 @@ footer {
     }
 
     .description-text-contaner {
-        padding:  0 2rem;
+        padding:  0 7rem 0 7rem;
     }
 
     .description-text-contaner p {
