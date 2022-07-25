@@ -247,6 +247,12 @@ nav {
     background-size: cover;
 }
 
+.banner-container {
+    width: 100%;
+    height: 100%;
+    background-color: #0b223379;
+}
+
 
 
 /* footer */
@@ -326,6 +332,10 @@ footer {
 /* potable radios */
 .banner-2 {
     background-image: url(/images/products-mobile-banner-2.png);
+}
+
+.banner-3 {
+    background-image: url(/images/products-mobile-banner-3.png);
 }
 
 .item-text-container {
@@ -427,7 +437,7 @@ footer {
 .about-banner {
     height: 20rem;
     width: 100%;
-    background-image: url(/images/about-banner.png);
+    background-image: url(/images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -700,11 +710,17 @@ footer {
     .banner {
         margin-top: 7rem;
         width: 100%;
-        height: 30rem;
-        background-image: url(/images/banner.jpg);
+        height: 33rem;
+        background-image: url(/images/banner.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .banner-container {
+        width: 100%;
+        height: 100%;
+        background-color: #0b223379;
     }
 
 
@@ -807,6 +823,10 @@ footer {
         background-image: url(/images/products-banner-2.png);
     }
 
+    .banner-2 {
+        background-image: url(/images/products-banner-3.png);
+    }
+
     .item-text-container {
         height: 100%;
         width: 100%;
@@ -905,8 +925,9 @@ footer {
 
     .about-banner {
         height: 20rem;
+        max-height: 25rem;
         width: 100%;
-        background-image: url(/images/about-banner.png);
+        background-image: url(/images/banner.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
