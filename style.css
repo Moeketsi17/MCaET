@@ -905,6 +905,14 @@ footer {
         background: #0b223379;
     }
 
+    .header-text-container p {
+        color: #fff;
+        font-size: 7rem;
+        text-align: center;
+        padding: 0 4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 
     .statements {
         padding: 5rem 5%;
