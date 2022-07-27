@@ -577,6 +577,15 @@ footer {
     font-size: 1.8rem;
 }
 
+.description-text-contaner  ul {
+        padding: 0 0 0 2rem;
+    }
+
+    .description-text-contaner ul li {
+        color: #fff;
+        font-size: 1.7rem;
+    }
+
 
 
 
@@ -932,7 +941,7 @@ footer {
 
     .header-text-container p {
         color: #fff;
-        font-size: 7rem;
+        font-size: 5rem;
         text-align: center;
         padding: 0 4rem;
         font-weight: 700;
@@ -1387,6 +1396,15 @@ footer {
         background-repeat: no-repeat;
     }
 
+    .header-text-container p {
+        color: #fff;
+        font-size: 7rem;
+        text-align: center;
+        padding: 0 4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
     .statements {
         padding: 5rem 5%;
         gap: 3rem;
@@ -1555,6 +1573,15 @@ footer {
     }
 
     .description-text-contaner p {
+        color: #fff;
+        font-size: 1.8rem;
+    }
+
+    .description-text-contaner  ul {
+        padding: 0 0 0 2rem;
+    }
+
+    .description-text-contaner ul li {
         color: #fff;
         font-size: 1.8rem;
     }
