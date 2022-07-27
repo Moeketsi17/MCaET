@@ -339,6 +339,10 @@ footer {
     background-image: url(/images/products-mobile-banner-3.png);
 }
 
+.banner-4 {
+    background-image: url(/images/products-mobile-banner-4.png);
+}
+
 .item-text-container {
     height: 100%;
     width: 100%;
