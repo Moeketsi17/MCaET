@@ -1164,10 +1164,12 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all 0.3s;
     }
 
     .navlinks li:nth-child(4):hover {
-        background-color: #ff8a2a;
+        background-color: #0B2233;
+        
     }
 
     .navlinks li:nth-child(4) a {
@@ -1179,6 +1181,14 @@ footer {
         font-size: 1.6rem;
         color: #0B2233;
         font-weight: 500;
+    }
+
+    .navlinks li a:hover {
+        color: #FF7603;
+    }
+
+    .navlinks li:nth-child(4):hover a {
+        color: #fff;
     }
 
 
@@ -1228,10 +1238,12 @@ footer {
         place-items: center;
         font-size: 20px;
         margin: 10px 0;
+        transition: all 0.3s;
     }
 
     .cta-btn:hover {
-        background-color: #ff8a2a;
+        background-color: #fff;
+        color: #0B2233;
     }
 
 
@@ -1597,6 +1609,13 @@ footer {
         height: 4.5rem;
         margin-top: 3rem;
         align-self: center;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .button:hover {
+        background-color: #fff;
+        color: #0B2233;
     }
 
 
