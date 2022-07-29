@@ -784,7 +784,7 @@ footer {
     /* banner */
     .banner {
         margin-top: 7rem;
-        width: 100%;
+        width: 102%;
         height: 33rem;
         background-image: url(/images/banner.png);
         background-position: center;
@@ -1131,7 +1131,7 @@ footer {
 
     .logo {
         z-index: 1000;
-        width: 10rem;
+        width: 8rem;
     }
 
     .burger {
@@ -1295,6 +1295,10 @@ footer {
         text-decoration: none;
     }
 
+    .page-link:hover {
+        color: #FF7603;
+    }
+
 
 
 
@@ -1373,6 +1377,15 @@ footer {
     /* potable radios */
     .banner-2 {
         background-image: url(/images/products-banner-2.png);
+    }
+
+    .banner-3 {
+        background-image: url(/images/products-banner-3.png);
+    }
+
+    /* potable radios */
+    .banner-4 {
+        background-image: url(/images/products-banner-4.png);
     }
 
     .item-text-container {
