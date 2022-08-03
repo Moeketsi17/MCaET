@@ -1217,8 +1217,9 @@ footer {
 
     .org-name {
         color: #fff;
-        font-size: 6rem;
-        width: 90rem;
+        font-size: 7rem;
+        width: 105rem;
+        font-weight: 800;
         text-align: center;
     }
 
